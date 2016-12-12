@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
                  + "        <span class='name'>{{login}}</span>"
                  + "    </a>"
                  + "</user>"
-      , org: "github"
+      , org: "publiclab"
     });
 
     orgMembers.done = function (err, data) {
